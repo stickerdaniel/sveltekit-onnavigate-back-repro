@@ -2,6 +2,8 @@
 
 When a navigation is superseded while its `onNavigate` callback is still pending, SvelteKit commits it anyway once the callback resolves. With Back, the newer navigation has usually finished by then, so the address bar shows `/a` while page B stays rendered and `page.url` says `/b`.
 
+Reported in [sveltejs/kit#17492](https://github.com/sveltejs/kit/issues/17492).
+
 ## By hand
 
 [Open in StackBlitz](https://stackblitz.com/github/stickerdaniel/sveltekit-onnavigate-back-repro), or run `npm install && npm run dev`.
