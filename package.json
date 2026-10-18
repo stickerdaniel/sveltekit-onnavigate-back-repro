@@ -1,0 +1,18 @@
+{
+	"name": "sveltekit-onnavigate-back-repro",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"repro": "node repro.mjs"
+	},
+	"devDependencies": {
+		"@playwright/test": "1.64.1",
+		"@sveltejs/kit": "3.1.0",
+		"@sveltejs/vite-plugin-svelte": "7.3.1",
+		"svelte": "5.57.2",
+		"vite": "8.3.4"
+	}
+}
